@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.text-box{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(68, 61, 61, 0.75),rgba(0,0,0,0.75)),url(cropped-20160815_162053.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    color: #f0f0f0;
+}
+
+.text-box h1{
+    font-size: 52px;
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color-interpolation-filters: #fff;
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin: 10rem auto 9 auto;
+}
+.section img{
+    height: 250px;
+}
+.section h1{
+    margin: 0;
+    padding-bottom: 20px;
+}
+section{
+    margin-right: 35px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-size: xx-large;
+    background-color: rgb(245, 245, 245);
+    
+}
+footer h4{
+    font-size: medium;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-weight: 600; 
+    
+}
+footer p {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.471);
+    padding: 0 10px 0 10px;
+}
+
