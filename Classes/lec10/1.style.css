@@ -1,0 +1,51 @@
+section{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 3px solid black;
+    /* transition: 1s; */
+    transition-duration: 5s;
+    transition-property: background-color;
+    transition-delay: 1s;
+}
+section:hover{
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+article{
+    margin: 20px;
+    border: 2px solid black;
+}
+article div{
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 10px;
+    transition: 1s;
+}
+.box1:hover{
+    transition-timing-function: linear;
+    padding-left: 50%;
+}
+.box2:hover{
+    transition-timing-function: ease;
+    padding-left: 50%;
+}
+.box3:hover{
+    transition-timing-function: ease-in;
+    padding-left: 50%;
+}
+.box4:hover{
+    transition-timing-function: ease-out;
+    padding-left: 50%;
+}
+.box5:hover{
+    transition-timing-function: ease-in-out;
+    padding-left: 50%;
+}
+.box6:hover{
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    padding-left: 50%;
+}
