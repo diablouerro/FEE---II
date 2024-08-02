@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.top{
+    background-color: #6E3832;
+    padding: 10px 62px;
+}
+.heading a{
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    cursor: pointer;
+}
+.image{
+    background-color: rgba(239, 226, 226);
+    margin: 20px 10.5%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.image-des h1{
+    color: rgb(22, 22, 141);
+}
+.image-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 0 10.5%;
+}
+.image-sec div img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+.image-sec div{
+    position: relative;
+}
+.image-sec div i{
+    top: 40%;
+    left: 45%;
+    position: absolute;
+    font-size: 3.4rem;
+}
+.image-sec div img:hover{
+    opacity: 0.4;
+}
