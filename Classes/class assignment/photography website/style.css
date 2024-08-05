@@ -1,52 +1,90 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
-.top{
-    background-color: #6E3832;
-    padding: 10px 62px;
-}
-.heading a{
-    color: white;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 30px;
-    cursor: pointer;
-}
-.image{
-    background-color: rgba(239, 226, 226);
-    margin: 20px 10.5%;
-    padding: 20px;
-    border-radius: 10px;
 
-}
-.image-des h1{
-    color: rgb(22, 22, 141);
-}
-.image-sec{
+#container{
+    width: 80vw;
+    margin: 20px auto; 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
     gap: 10px;
-    margin: 0 10.5%;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
 }
-.image-sec div img{
-    width: 100%;
+
+div{
     border-radius: 10px;
-    height: 200px;
-    transition-timing-function: ease-in-out;
-    transition-duration: 200ms;
-    cursor: pointer;
-}
-.image-sec div{
     position: relative;
 }
-.image-sec div i{
-    top: 40%;
-    left: 45%;
+
+div img{
+    width: 100%;
+    height: 100%;
+    /* 1.border radius */
+    border-radius: 10px;
+    transition: 200ms;
+    
+}
+
+/* 2.hover effect: change image opacity*/
+
+div img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+
+/* nav styling: */
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+i{
+ margin-right: 10px;
+}
+
+nav{
+    background-color: brown;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* icon over image: */
+div i{
     position: absolute;
     font-size: 3.4rem;
+    top: 40%;
+    left: 45%;
+    transform: scale(0);
+    transition: 300ms;
+    transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);;
 }
-.image-sec div img:hover{
-    opacity: 0.4;
+
+div:hover i{
+    transform: scale(1.1);
+}
+
+/* heading css */
+#heading{
+   width: 77vw;
+   margin: 20px auto;
+   padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(239, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading h1{
+    color: rgb(22,22,141)
 }
