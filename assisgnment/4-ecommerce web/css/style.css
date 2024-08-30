@@ -1,4 +1,3 @@
-/*** Navbar Start ***/
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
     font-size: 16px;
@@ -24,9 +23,7 @@
 #searchModal .modal-content {
     background: rgba(255, 255, 255, .8);
 }
-/*** Navbar End ***/
 
-/*** Hero Header ***/
 .hero-header {
     background: linear-gradient(rgba(248, 223, 173, 0.1), rgba(248, 223, 173, 0.1));
     background-position: center center;
@@ -88,10 +85,8 @@
         margin-top: 97px !important;
     }
 }
-/*** Hero Header end ***/
 
 
-/*** Footer Start ***/
 .footer .footer-item .btn-link {
     line-height: 35px;
     color: rgba(255, 255, 255, .5);
@@ -105,4 +100,3 @@
 .footer .footer-item p.mb-4 {
     line-height: 35px;
 }
-/*** Footer End ***/
