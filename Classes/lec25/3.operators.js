@@ -46,7 +46,7 @@ let a = 10;
 let b = '10';
 let c = 20;
 
-console.log(a == b); // 10 == 20 
+console.log(a == b); // 10 == 10 
 console.log(a === b); // 10(num) === 10(string)
 console.log(a != b);
 console.log(a !== b);
@@ -61,16 +61,16 @@ let i = true;
 let j = false;
 
 console.log(i && j);
-console.log(i || j);
+console.log(j || i);
 console.log(!j);
 
-// let g = 10
+let g = 10
 // let f = ++g;
-// let f = g++;
-// console.log(f)
-// console.log(g)
-let g = 5;
+let f = g++;
+console.log(f)
+console.log(g)
+// let g = 5;
 // let f = --g;
-let f = g--;
+// let f = g--;
 console.log(f)
 console.log(g);

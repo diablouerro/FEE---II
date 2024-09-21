@@ -22,7 +22,7 @@ console.log(lowercase)
 // 4.indexOf:
 
 let textMsg = "sonam_bewafa_hai";
-console.log(textMsg.indexOf("bewafa"))
+console.log(textMsg.indexOf("o"))
 console.log(textMsg.indexOf("_"))
 
 // 5. method chaining:
