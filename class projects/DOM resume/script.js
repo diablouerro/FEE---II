@@ -5,7 +5,7 @@ const header = document.createElement('header');
 body.appendChild(header);
 
 const h1 = document.createElement('h1');
-h1.innerHTML = "Tarandeep Singh";
+h1.innerHTML = "Vinayak Dhar";
 header.appendChild(h1);
 
 const nav = document.createElement('nav');
@@ -37,7 +37,7 @@ about.id = 'about';
 body.appendChild(about);
 
 const h2 = document.createElement('h2');
-h2.innerHTML = "Hi, I'm an 18-year-old student currently pursuing a Bachelor of Engineering in Computer Science and Engineering at Chitkara University. I'm passionate about open-source development and love working with Data Structures and Algorithms (DSA). I've built projects like a typing speed testing website and a to-do list app, and I've earned a 5-star rating in C++ on HackerRank. Solving over 100 DSA problems on LeetCode has really helped me strengthen my coding skills.";
+h2.innerHTML = "Hi, I'm an 20-year-old student currently pursuing a Bachelor of Engineering in Computer Science and Engineering at Chitkara University. I'm passionate about open-source development and love working with Data Structures and Algorithms (DSA). I've built projects like a typing speed testing website and a to-do list app, and I've earned a 5-star rating in C++ on HackerRank. Solving over 100 DSA problems on LeetCode has really helped me strengthen my coding skills.";
 about.appendChild(h2);
 
 const p = document.createElement('p');
@@ -73,10 +73,10 @@ contact.id = "contact";
 body.appendChild(contact);
 
 const con_h2 = document.createElement('h2');
-con_h2.innerHTML = "9646272307";
+con_h2.innerHTML = "7696873308";
 
 const con_p = document.createElement('p');
-con_p.innerHTML = "tarandeep2228.be23@chitkara.edu.in";
+con_p.innerHTML = "vinayak2243.be23@chitkara.edu.in";
 contact.appendChild(con_h2);
 contact.appendChild(con_p);
 
